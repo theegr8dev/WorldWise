@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import { createContext, useContext, useEffect, useState } from 'react';
 const BASE_URL = 'http://localhost:8000';
-
+// Creating useContext
 const CitiesContext = createContext();
 function CitiesProvider({ children }) {
 	const [cities, setCities] = useState([]);
@@ -36,6 +36,7 @@ function CitiesProvider({ children }) {
 		}
 	}
 	return (
+		// setting  value
 		<CitiesContext.Provider
 			value={{
 				cities: cities,
@@ -50,6 +51,7 @@ function CitiesProvider({ children }) {
 }
 
 function useCities() {
+	// consuming value
 	const context = useContext(CitiesContext);
 	if (context === undefined)
 		throw new Error('Cities Context was used outside CitiesProvider');

@@ -4,37 +4,25 @@
       "cityName": "Lisbon",
       "country": "Portugal",
       "emoji": "🇵🇹",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "My favorite city so far!",
-      "position": {
-        "lat": 38.727881642324164,
-        "lng": -9.140900099907554
-      },
-      "id": 73930385
-    },
-    {
-      "cityName": "Borriol",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2023-09-18T23:38:12.310Z",
+      "date": "2023-09-19T11:49:28.662Z",
       "notes": "",
       "position": {
-        "lat": "40.038917946926716",
-        "lng": "-0.04445942004213777"
+        "lat": "38.73212548425921",
+        "lng": "-9.118582143850047"
       },
-      "id": 98443198
+      "id": 1
     },
     {
-      "cityName": "Mora de Rubielos",
+      "cityName": "Castello de la Plana",
       "country": "Spain",
       "emoji": "🇪🇸",
-      "date": "2023-09-19T11:12:05.925Z",
+      "date": "2023-09-19T11:57:50.570Z",
       "notes": "",
       "position": {
-        "lat": "40.26354661679252",
-        "lng": "-0.8124682281348684"
+        "lat": "40.0291917838256",
+        "lng": "-0.0023624820381584755"
       },
-      "id": 98443202
+      "id": 2
     }
   ]
 }
